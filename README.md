@@ -17,16 +17,16 @@ $ php artisan bundle:install laravel-ucenter
 * route bundle in application/bundles.php
 
   `
-    'laravel-ucenter' => array('handles' => 'api/uc')
+    'ucenter' => array('handles' => 'api/uc')
   `  
 
-* place your ucenter config in bundles/laravel-ucenter/config.php
+* place your ucenter config in bundles/ucenter/config.php
 
 # usage
 * start the bundle
   
   `
-  Bundle::start('laravel-ucenter');
+  Bundle::start('ucenter');
   `
 
 * call api
@@ -39,7 +39,7 @@ $ php artisan bundle:install laravel-ucenter
 
 * callback functionality
   
-  > just modify bundles/laravel-ucenter/callback.php.
+  > just modify bundles/ucenter/callback.php.
 
 
 ## hope it'll help you.:-)
